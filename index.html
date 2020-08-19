@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <title>✨~embed~✨</title>
+    <!--windows+. for emoji-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--links to stylesheet-->
+  </head>
+  <body>
+    <h1 class="header1">😮 embed, this is?</h1>
+    <div>
+      <!--button container-->
+      <button id="pdfButton">Export to PDF 📄</button>
+      <button id="imageButton">Export to Image 🖼</button>
+    </div>
+    <hr />
+    <!--adds horizontal line-->
+    <div>
+      <!--show hide buttons-->
+      <button id="showButton">Show</button>
+      <button id="hideButton">Hide</button>
+    </div>
+    <hr />
+    <div>
+      <button id="switchViz">Switch Viz</button>
+    </div>
+    <hr />
+    <div>
+      <button class="filter" value="Central">Central</button>
+      <button class="filter" value="North">North</button>
+      <button class="filter" value="South">South</button>
+    </div>
+    <div id="vizContainer"></div>
+    <!--js happens last-->
+    <script src="./app.js"></script>
+  </body>
+</html>
